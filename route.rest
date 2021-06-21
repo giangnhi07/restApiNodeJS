@@ -1,0 +1,28 @@
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/60ce0d1595458b1b7c6758f8
+
+
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "asdasd",
+    "age": "18"
+}
+
+### 
+DELETE http://localhost:3000/users/60ce110a167c180c50ef5478
+
+### 
+
+PATCH  http://localhost:3000/users/60ce136d06756c180c58a958
+Content-Type: application/json
+
+{
+    "name": "Giang Nam",
+    "age":"29"
+}
